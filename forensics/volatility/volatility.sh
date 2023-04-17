@@ -1,4 +1,4 @@
-sername=$(whoami)
+username=$(whoami)
 
 sudo apt install -y build-essential git libdistorm3-dev yara libraw1394-11 libcapstone-dev capstone-tool tzdata
 sudo apt install -y python2 python2.7-dev libpython2-dev
