@@ -7,3 +7,6 @@ python3 sanitize.py
 python3 sanitize.py [-h] -w WORDLIST [-n NUMBERS] [-c CHARS] [-p PHRASES]
 python3 sanitize.py -w rockyou.txt -c '!@#$%^&*()' -p '2000'
 ```
+
+-c - Will strip specific characters
+-p - Will remove specific phrases (comma separated)
