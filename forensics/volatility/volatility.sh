@@ -19,5 +19,7 @@ python3 -m pip install -U git+https://github.com/volatilityfoundation/volatility
 mv ~/.local/bin/vol ~/.local/bin/vol3.py
 
 echo 'export PATH=/home/'"$username"'/.local/bin:$PATH' >> ~/.bashrc
+echo 'export PATH=/home/'"$username"'/.local/bin:$PATH' >> ~/.zshrc
+
 echo 'Close this shell and open a new one!'
 echo 'vol2.py for volatility2 and vol3.py for volatility3'
