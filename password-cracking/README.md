@@ -1,4 +1,11 @@
-Resources for password cracking.
+# Password Cracking
+* [hashcat](hashcat) - Hashcat notes and rules
+* [john](john) - John the Ripper notes
+* [sanitize.py](sanitize.py) - Sanitize wordlists
+
+# Wordlists
+* [clem9669](https://github.com/clem9669/wordlists) - A collection of wordlists
+
 
 # sanitize.py
 ```
