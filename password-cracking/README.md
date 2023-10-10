@@ -7,7 +7,7 @@
 * [clem9669](https://github.com/clem9669/wordlists) - A collection of wordlists
 
 
-# sanitize.py
+### sanitize.py
 ```
 python3 -m pip install num2words word2number
 python3 sanitize.py
