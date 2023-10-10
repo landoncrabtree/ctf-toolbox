@@ -5,4 +5,12 @@
 * [angr](https://github.com/angr/angr) - A tool for analyzing binaries
 * [CTF-pwn-tips](https://github.com/Naetw/CTF-pwn-tips/blob/master/README.md) - Collection of common vulnerabilities and exploitation techniques
 * [Zeratool](https://github.com/ChrisTheCoolHut/Zeratool) - Automatic exploit generation
+* [ptrace.c](ptrace.c) - Bypass PTRACE_TRACEME anti-debugging via LD_PRELOAD
+
+  ### ptrace.c
+  ```
+  gcc -shared ptrace.c -o ptrace.so
+  export LD_PRELOAD=./ptrace.so
+  (gdb) set environment LD_PRELOAD=./ptrace.so
+  ```
 
