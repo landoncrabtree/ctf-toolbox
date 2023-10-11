@@ -1,3 +1,5 @@
+sudo pip install -U setuptools
+
 # Install Volatility2
 # First, we need to install Python2 and Python2 PIP
 # Then install all dependencies
@@ -8,10 +10,11 @@ sudo apt install -y python2 python2.7-dev libpython2-dev python2-dev
 curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
 sudo python2 get-pip.py
 rm get-pip.py
-sudo python2 -m pip install -U setuptools wheel virtualenv
+sudo python2 -m pip install -U pip
+sudo python2 -m pip install -U setuptools wheel
 #python2 -m virtualenv ~/volatility2_venv
 #source ~/volatility2_venv/bin/activate
-sudo python2 -m pip install -U distorm3 pycrypto yara
+sudo python2 -m pip install -U distorm3 pycryptodome yara
 sudo ln -s /usr/local/lib/python2.7/dist-packages/usr/lib/libyara.so /usr/lib/libyara.so
 #ln -s ~/volatility2_venv/lib/python2.7/site-packages/usr/lib/libyara.so ~/volatility2_venv/lib/libyara.so
 git clone https://github.com/volatilityfoundation/volatility.git ~/volatility2
