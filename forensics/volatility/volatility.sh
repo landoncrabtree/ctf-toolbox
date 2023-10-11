@@ -46,4 +46,4 @@ echo 'alias vol3="vol3.py"' >> ~/.bashrc
 echo 'alias vol2="vol2.py"' >> ~/.zshrc
 echo 'alias vol3="vol3.py"' >> ~/.zshrc
 
-echo "Done :^). Open a new shell or type 'source ~/.bashrc'!"
+echo "Done :D. Open a new shell or type 'source ~/.bashrc'!"
