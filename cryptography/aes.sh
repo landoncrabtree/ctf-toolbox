@@ -1,6 +1,5 @@
 for i in {start..end}; do  
-    #openssl aes-128-cbc -nosalt -d -k $i  -in ciphertext  -out /dev/stdout 2>/dev/null > out$i.txt && echo $i ; 
-    result=$(openssl aes-128-cbc -nosalt -d -pass pass:$i -in ciphertext -out /dev/stdout 2>/dev/null) 
+    result=$(openssl enc -aes-128-cbc -nosalt -d -pass pass:$i -in ciphertext -out /dev/stdout 2>/dev/null) 
     if [[ $result == *"flag"* ]]; then
         echo $result
         echo $i
