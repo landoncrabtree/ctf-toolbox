@@ -39,8 +39,10 @@ sed -i '1s|.*|#!/usr/bin/env python2.7|' ~/volatility2/vol.py
 
 # Setup linking so we can use vol2.py and vol3.py
 # Setup alias so we can also call just vol2 & vol3
-ln -s ~/volatility2/vol.py ~/volatility2/vol2.py && chmod +x $_
-ln -s ~/volatility2/vol.py ~/volatility3/vol3.py && chmod +x $_
+ln -s ~/volatility2/vol.py ~/volatility2/vol2.py
+ln -s ~/volatility3/vol.py ~/volatility3/vol3.py
+chmod +x ~/volatility2/vol2.py
+chmod +x ~/volatility3/vol3.py
 echo 'alias vol2="vol2.py"' >> ~/.bashrc
 echo 'alias vol3="vol3.py"' >> ~/.bashrc
 echo 'alias vol2="vol2.py"' >> ~/.zshrc
