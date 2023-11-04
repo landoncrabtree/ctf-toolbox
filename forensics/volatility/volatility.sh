@@ -1,3 +1,7 @@
+# update
+sudo apt update
+sudo apt upgrade -y
+
 sudo pip install -U setuptools
 
 # Install Volatility2
