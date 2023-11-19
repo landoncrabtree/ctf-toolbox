@@ -3,7 +3,6 @@ sudo apt update
 sudo apt upgrade -y
 
 sudo apt install python3-pip
-sudo apt install python2
 
 sudo pip install -U setuptools
 
