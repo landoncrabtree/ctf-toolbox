@@ -3,7 +3,7 @@ sudo apt update
 sudo apt upgrade -y
 
 # This is needed for the script to work on ubuntu. works on kali without. 
-sudo apt install python3-pip curl -y
+sudo apt install python3-pip curl libpcre3 -y
 
 sudo pip install -U setuptools
 
